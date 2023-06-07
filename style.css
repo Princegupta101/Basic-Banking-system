@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   
+   body{
+    font-family: 'Roboto', sans-serif;
+   background-image: url("./Screenshot\ 2023-06-07\ 191454.png");
+    background-size: cover;
+   }
+   .bg-light{
+     background-color: #f2e9e4!important;
+   }
+   
+   .navbar-brand{
+     font-family: 'Sansita Swashed', cursive;
+     font-size: 2rem;
+     color: #5f6368!important;
+   }
+   
+   .nav-link{
+     color: #5f6368!important;
+     font-family: 'Noto Sans JP', sans-serif;
+   }
+   .nav-link:hover{
+     background-color: #f3f1f1;
+   }
+   
+   /* here content css starts here  */
+   .hero-content{
+       height: 100vh;
+       color: rgb(0, 0, 0);
+       padding: 2rem;
+       font-size: 25px;
+       margin-bottom: 0.3vh;
+   }
+   
+   h1{
+     font-weight: 700;
+     font-size: 70px;
+   }
+   .get-started{
+       border-radius: 0.5rem;
+       padding: 1rem 2rem;
+       font-size: 162%;
+       background-color: #fff;
+       color: #039be5!important;
+       transition: 0.3s;
+   }
+   
+   .get-started:hover{
+       text-decoration: none;
+       background-color: #bfdff0;
+       
+   }
+   
+   /* get-started-buttons css starts here*/
+   .get-started-content{
+       height: 60vh;
+       background-color: #ff8a65;
+       border-top-left-radius: 42rem;
+       border-top-right-radius: 42rem;
+       border-bottom-right-radius: 42rem;
+       border-bottom-left-radius: 42rem;
+   }
+   
+   .get-started-content .row{
+       padding: 25vh 0;
+   }
+   
+   .get-started-content a{
+       border-radius: 0.5rem;
+       padding: 1rem 2rem;
+       font-size: 162%;
+       background-color: #039be5;
+       color: #fff!important;
+       transition: 0.3s;
+   }
+   
+   .get-started-content a:hover{
+       background-color: #017ab6;
+       text-decoration: none;
+   }
+   
+   /* footer */
+   .footer {
+     background-color: #100e0ee2;
+     padding: 40px 0;
+   }
+   
+   .footer h3 {
+     color: #5c5cc9;
+     font-size: 25px;
+     margin-bottom: 20px;
+   }
+   
+   .footer p, .footer ul {
+     color: #eeeaea;
+     font-size: 16px;
+   }
+   
+   .footer ul li {
+     margin-bottom: 10px;
+   }
+   
+   .footer ul li a {
+     color: #fef6f6;
+     text-decoration: none;
+   }
+   
+   .footer ul li a:hover {
+     text-decoration: underline;
+   }
+   
